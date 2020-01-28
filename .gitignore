@@ -1,0 +1,18 @@
+.idea/workspace.xml
+.idea/
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# Sonarlint plugin
+.idea/sonarlint
+
+target/
+
+screenshots/

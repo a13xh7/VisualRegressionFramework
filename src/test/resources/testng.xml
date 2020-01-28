@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="VisualRegressionTests" verbose="1">
+
+
+    <listeners>
+        <listener class-name="A_ErrorsLogListener"/>
+    </listeners>
+
+    <test name="Test">
+        <classes>
+            <class name="A_BeforeAllTests" />
+
+            <class name="StaticGuestTest" />
+
+            <class name="A_AfterAllTests" />
+        </classes>
+    </test>
+
+</suite>
